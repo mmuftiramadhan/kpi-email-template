@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.email-wrapper {
+  background-color: $primary;
+  height: 794px;
+  width: 600px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: min-content 231.56px;
+}

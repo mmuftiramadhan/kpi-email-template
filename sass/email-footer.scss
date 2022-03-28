@@ -1,0 +1,52 @@
+.email-footer {
+  display: grid;
+  grid-template-rows: repeat(3, max-content);
+  grid-gap: 25px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 65.62px;
+
+  background-color: $secondary;
+  width: 100%;
+}
+
+.sosmed {
+  display: flex;
+  justify-self: center;
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.9375px solid #595959;
+    border-right-style: none;
+    width: 37.5px;
+    height: 37.5px;
+
+    &:last-child {
+      border: 0.9375px solid #595959;
+    }
+  }
+}
+
+.copyright {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.0625px;
+  line-height: 15px;
+
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer-description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.125px;
+  line-height: 21px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
