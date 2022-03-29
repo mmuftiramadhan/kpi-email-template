@@ -38,9 +38,9 @@ This section should list any major frameworks that you built your project using.
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### How to run in local ( For Development only )
+### How to run in local
 
-1. Just open index.html
+1. Just open index.html or Drag index.html into the browser
 
 ### Prerequisites ( For Development only )
 
