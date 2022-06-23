@@ -5,10 +5,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .email-wrapper {
-  background-color: $primary;
   height: 794px;
-  width: 600px;
+  width: max-content;
   margin: auto;
-  display: grid;
-  grid-template-rows: min-content 231.56px;
 }
