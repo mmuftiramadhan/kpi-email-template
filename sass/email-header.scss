@@ -1,7 +1,13 @@
 .email-header {
   background-color: $primary;
-  padding: 40px 24px 40px 24px;
-
+  width: max-content;
+  
+  &__logo { 
+    padding: 20px 0px 20px 40px;
+    & img{
+      height: 50px;
+    }
+  }
   &__body {
     background-color: white;
     width: 552px;
@@ -23,20 +29,23 @@
 
 // LOGO HEADER
 .logo {
-  width: 215px;
+  // width: 215px;
   height: 35px;
-  border: 1px solid $primary;
   color: $primary;
-  padding-left: 20px;
 
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20.2435px;
   line-height: 25px;
   display: flex;
+  gap: 20px;
   align-items: center;
   text-align: center;
+
+  & .img{
+    height: 35px;
+  }
 }
 .divider {
   width: 100%;
@@ -49,11 +58,29 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 29px;
   /* or 161% */
 
-  color: #949494;
+  color: black;
+  background: rgba(1, 172, 80, 0.12);
+  border-radius: 8px;
+  padding: 30px;
+}
+.description-footer{ 
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+
+  color: #5B5B5B;
+}
+
+.button-footer-wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .button-primary {
@@ -62,21 +89,20 @@
   justify-content: center;
   align-items: center;
   grid-gap: 15px;
-
   justify-self: center;
   align-self: start;
 
-  width: 217px;
-  height: 53px;
-  background-color: $primary;
+  width: 215px;
+  height: 40px;
+  background-color: #01ac50;
   border-radius: 90px;
+
   color: white;
   text-decoration: none;
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 29px;
 }
 
