@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .email-wrapper {
+      height: 794px;
+      width: max-content;
+      margin: auto;
+    }
+
+    .email-header {
+      background-color: #01ac50;
+      width: max-content;
+    }
+    .email-header__logo {
+      padding: 20px 0px 20px 40px;
+    }
+    .email-header__logo isvmg {
+      height: 500px;
+    }
+    .email-header__body {
+      background-color: white;
+      width: 552px;
+      padding: 40px;
+      margin-bottom: 3px;
+      display: grid;
+      grid-template-rows: repeat(4, min-content);
+      grid-row-gap: 31.5px;
+    }
+    .email-header__footer {
+      height: 146px;
+      background-color: white;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      padding-top: 13px;
+    }
+
+    .logo {
+      height: 35px;
+      color: #01ac50;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20.2435px;
+      line-height: 25px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      text-align: center;
+    }
+    .logo .img {
+      height: 35px;
+    }
+
+    .divider {
+      width: 100%;
+      height: 2px;
+      background-color: #01ac50;
+      border: none;
+    }
+
+    .description {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 29px;
+      /* or 161% */
+      color: black;
+      background: rgba(1, 172, 80, 0.12);
+      border-radius: 8px;
+      padding: 30px;
+    }
+
+    .description-footer {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 29px;
+      color: #5B5B5B;
+    }
+
+    .button-footer-wrapper {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .button-primary {
+      display: grid;
+      grid-template-columns: max-content max-content;
+      justify-content: center;
+      align-items: center;
+      grid-gap: 15px;
+      justify-self: center;
+      align-self: start;
+      width: 215px;
+      height: 40px;
+      background-color: #01ac50;
+      border-radius: 90px;
+      color: white;
+      text-decoration: none;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 29px;
+    }
+
+    .title-h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 123%;
+      color: #000000;
+    }
+    .title-h1::after {
+      display: block;
+      content: " ";
+      background-image: url("../images/brush.svg");
+      height: 12px;
+      width: 108px;
+      margin-top: 17px;
+    }
+
+    .title-h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 29px;
+      /* identical to box height, or 145% */
+      text-align: center;
+      color: #000000;
+    }
+
+    .email-footer {
+      display: grid;
+      grid-template-rows: repeat(3, max-content);
+      grid-gap: 25px;
+      justify-content: center;
+      align-items: center;
+      padding-top: 65.62px;
+      background-color: #333333;
+      width: 100%;
+    }
+
+    .sosmed {
+      display: flex;
+      justify-self: center;
+    }
+    .sosmed__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 0.9375px solid #595959;
+      border-right-style: none;
+      width: 37.5px;
+      height: 37.5px;
+    }
+    .sosmed__item:last-child {
+      border: 0.9375px solid #595959;
+    }
+
+    .copyright {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14.0625px;
+      line-height: 15px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .footer-description {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13.125px;
+      line-height: 21px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+/*# sourceMappingURL=style.css.map */
+
+  </style>
+</head>
+<body>
+  <div class="email-wrapper">
+    <div class="email-header">
+      <div class="email-header__logo">
+        <svg width="112" height="40" viewBox="0 0 112 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="40" height="40" rx="8" fill="white"/>
+          <path d="M20 10C14.486 10 10 14.486 10 20C10 25.514 14.486 30 20 30C25.514 30 30 25.514 30 20C30 14.486 25.514 10 20 10ZM20 28C15.589 28 12 24.411 12 20C12 15.589 15.589 12 20 12C24.411 12 28 15.589 28 20C28 24.411 24.411 28 20 28Z" fill="black"/>
+          <path d="M21 14L15 21H19V26L25 19H21V14Z" fill="black"/>
+          <path d="M60.936 25.736H53.832L52.512 29H47.664L55.08 12.2H59.76L67.2 29H62.256L60.936 25.736ZM59.544 22.232L57.384 16.856L55.224 22.232H59.544ZM83.7152 29L83.6672 20.096L79.3472 27.344H77.2352L72.9392 20.336V29H68.5472V12.2H72.4592L78.3632 21.896L84.1232 12.2H88.0352L88.0832 29H83.7152ZM97.3496 29.336C95.9896 29.336 94.6696 29.168 93.3896 28.832C92.1096 28.496 91.0696 28.048 90.2696 27.488L91.8296 23.984C92.5816 24.48 93.4536 24.88 94.4456 25.184C95.4376 25.488 96.4136 25.64 97.3736 25.64C99.1976 25.64 100.11 25.184 100.11 24.272C100.11 23.792 99.8456 23.44 99.3176 23.216C98.8056 22.976 97.9736 22.728 96.8216 22.472C95.5576 22.2 94.5016 21.912 93.6536 21.608C92.8056 21.288 92.0776 20.784 91.4696 20.096C90.8616 19.408 90.5576 18.48 90.5576 17.312C90.5576 16.288 90.8376 15.368 91.3976 14.552C91.9576 13.72 92.7896 13.064 93.8936 12.584C95.0136 12.104 96.3816 11.864 97.9976 11.864C99.1016 11.864 100.19 11.992 101.262 12.248C102.334 12.488 103.278 12.848 104.094 13.328L102.63 16.856C101.03 15.992 99.4776 15.56 97.9736 15.56C97.0296 15.56 96.3416 15.704 95.9096 15.992C95.4776 16.264 95.2616 16.624 95.2616 17.072C95.2616 17.52 95.5176 17.856 96.0296 18.08C96.5416 18.304 97.3656 18.536 98.5016 18.776C99.7816 19.048 100.838 19.344 101.67 19.664C102.518 19.968 103.246 20.464 103.854 21.152C104.478 21.824 104.79 22.744 104.79 23.912C104.79 24.92 104.51 25.832 103.95 26.648C103.39 27.464 102.55 28.12 101.43 28.616C100.31 29.096 98.9496 29.336 97.3496 29.336ZM106.985 12.2H111.737V29H106.985V12.2Z" fill="white"/>
+        </svg>
+      </div>
+      <div class="email-header__body">
+        <div class="logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.6667 10.6667C19.12 10.6667 19.56 10.72 20 10.7867V4.36L10 0L0 4.36V10.9067C0 16.96 4.26667 22.6267 10 24C10.7333 23.8267 11.44 23.5733 12.1333 23.2667C11.2133 21.96 10.6667 20.3733 10.6667 18.6667C10.6667 14.2533 14.2533 10.6667 18.6667 10.6667Z" fill="#01AC50"/>
+            <path d="M18.6666 13.3333C15.72 13.3333 13.3333 15.72 13.3333 18.6667C13.3333 21.6133 15.72 24 18.6666 24C21.6133 24 24 21.6133 24 18.6667C24 15.72 21.6133 13.3333 18.6666 13.3333ZM18.6666 15.1733C19.4933 15.1733 20.16 15.8533 20.16 16.6667C20.16 17.48 19.48 18.16 18.6666 18.16C17.8533 18.16 17.1733 17.48 17.1733 16.6667C17.1733 15.8533 17.84 15.1733 18.6666 15.1733ZM18.6666 22.3333C17.4266 22.3333 16.3466 21.72 15.68 20.7733C15.7466 19.8133 17.6933 19.3333 18.6666 19.3333C19.64 19.3333 21.5866 19.8133 21.6533 20.7733C20.9866 21.72 19.9066 22.3333 18.6666 22.3333Z" fill="#01AC50"/>
+          </svg>
+          <span>Activate your AMSI Account</span>
+        </div>
+        <div class="description">
+          Hi Rio,<br>
+          Thank you for registering for AMSI Platform <br>
+          to complete your AMSI Account registration, please click the following button. <br>
+          For your information, this activation link is valid for one day. You need to resend the activation email from our website for new valid token.<br>
+          <div class="button-footer-wrapper">
+            <a target="__blank" href="https://youtube.com" class="button-primary">
+              Activate Now
+              <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1956 12.2007C13.5826 12.5947 14.2158 12.6004 14.6098 12.2134L19.7007 7.21345C19.8922 7.02542 20 6.76834 20 6.5C20 6.23166 19.8922 5.97458 19.7007 5.78655L14.6098 0.786551C14.2158 0.399561 13.5826 0.405265 13.1956 0.799292C12.8087 1.19332 12.8144 1.82646 13.2084 2.21345L16.5547 5.5L1 5.5C0.447715 5.5 0 5.94771 0 6.5C0 7.05228 0.447715 7.5 1 7.5L16.5547 7.5L13.2084 10.7866C12.8144 11.1735 12.8087 11.8067 13.1956 12.2007Z" fill="white"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="description-footer">
+          Do not reply to this email; it was sent from an unmonitored email address. <br>
+          For inquiries, please contact our support at <a href="mailto:info.amsi@kpiinstitute.com" target="__blank">info.amsi@kpiinstitute.com</a>
+        </div>
+        <div class="description-footer">
+          Sincerely, <br>
+          AMSI Team
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
