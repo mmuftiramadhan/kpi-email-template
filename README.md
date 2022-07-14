@@ -40,49 +40,6 @@ To get a local copy up and running follow these simple example steps.
 
 ### How to run in local
 
-1. Just open index.html or Drag index.html into the browser
+1. Just open index.html ( latest email ) or drag any .html file into the browser
 
-### Prerequisites ( For Development only )
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation ( For Development only )
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/Bagus-Samodra/kpi-email-template.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
-### How to run in local ( For Development only )
-
-1. Follow the installation guide first
-
-2. Install Packages
-
-   ```sh
-   npm install
-   ```
-
-   OR
-
-   ```sh
-   yarn
-   ```
-
-3. Run App
-   ```sh
-   npm start
-   ```
-   OR
-   ```sh
-   yarn start
-   ```
